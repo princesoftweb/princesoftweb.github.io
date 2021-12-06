@@ -1,0 +1,71 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif;}
+body, html {
+  height: 100%;
+  color :#777777;
+  line-height: 1.8;
+}
+/* Create a Parallax Effect */
+.bgimg-1{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image:   
+  url('image/princesoftweb.jpg');
+  min-height: 80%;
+  opacity: 40%;
+}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+}
+.card-body { border-style: outset; }
+a:link {
+  text-decoration: none;
+}
+.social {
+text-align:center;
+}
+.brand-right {
+padding:-20px;
+}
+.resume {
+		text-align:center;		
+}
+.neonText {
+  color: #cc0;
+  text-shadow:
+      0 0 7px #770,
+      0 0 10px #770,
+      0 0 21px #770,
+      0 0 42px #660,
+      0 0 82px #660,
+      0 0 92px #660,
+      0 0 102px #660,
+      0 0 151px #660;
+}
+b{
+  font-size: 2.1rem;
+  animation: flicker 6.8s infinite alternate;     
+}
+/* Flickering animation */
+@keyframes flicker { 
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow:
+      0 0 4px #ff0,
+      0 0 11px #ff0,
+      0 0 19px #ff0,
+      0 0 40px #0ff,
+      0 0 80px #0ff,
+      0 0 90px #0ff,
+      0 0 100px #0ff,
+      } 
+   20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
+
+   
+      
