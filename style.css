@@ -70,9 +70,9 @@ b{
 
 
 
-/* seen on  */
+/* seen on  
 
-/* Featured / Media Logos Section */
+/* Featured / Media Logos Section 
 .featured-logos {
   margin-top: 20px;
 }
@@ -89,6 +89,28 @@ b{
 .media-logo:hover {
   opacity: 1;
   filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+*/
+
+
+
+
+/* Featured logos interaction */
+.media-logo {
+  max-width: 140px;
+  max-height: 60px;
+  object-fit: contain;
+  filter: grayscale(100%) brightness(80%);
+  opacity: 0.7;
+  transition: filter 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+}
+
+.media-logo:hover,
+.media-logo:active {
+  filter: grayscale(0%) brightness(100%);
+  opacity: 1;
   transform: scale(1.05);
 }
 
