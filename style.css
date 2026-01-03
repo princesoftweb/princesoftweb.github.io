@@ -67,4 +67,29 @@ b{
   }    
 }
 
-   
+
+
+
+/* seen on  */
+
+/* Featured / Media Logos Section */
+.featured-logos {
+  margin-top: 20px;
+}
+
+.media-logo {
+  max-width: 140px;
+  max-height: 60px;
+  object-fit: contain;
+  opacity: 0.7;
+  filter: grayscale(100%);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.media-logo:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+
